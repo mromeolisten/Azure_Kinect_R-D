@@ -2,11 +2,10 @@
 
 Our company [Listen](www.wearelisten.com) is sharing experiments using the latest Azure Kinect DK.
 
-- Example 1
-- Example 2
-- Example 3
-- Example 4
-
+1. Audio Reactive VJ kit:
+2. Azure Cognitive Services: 
+3. Microphone Array
+4. Axis Sensors
 
 ```markdown
 Syntax highlighted code block
