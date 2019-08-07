@@ -25,3 +25,6 @@ Syntax highlighted code block
 ![Image](https://physicsworld.com/wp-content/uploads/2018/09/PWSep18Ball-noise_HERO-1024x576.jpg)
 
 
+<a href="blob:https://www.dropbox.com/2d43e6ec-b625-428f-a4e3-9eebf1587a7e" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
