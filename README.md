@@ -7,7 +7,7 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 3. Microphone Array
 4. Axis Sensors
 
-<a href="blob:https://www.dropbox.com/2d43e6ec-b625-428f-a4e3-9eebf1587a7e" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="https://www.dropbox.com/2d43e6ec-b625-428f-a4e3-9eebf1587a7e" target="_blank"><img src="https://www.dropbox.com/2d43e6ec-b625-428f-a4e3-9eebf1587a7e" alt="Kinect Audio reactive" width="240" height="180" border="10" /></a>
 
 ```markdown
 Syntax highlighted code block
