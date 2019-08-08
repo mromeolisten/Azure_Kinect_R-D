@@ -7,9 +7,8 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 3. Microphone Array
 4. Axis Sensors
 
+<p><a href="https://vimeo.com/24665893">Kinect Graffiti&trade;</a> from <a href="https://vimeo.com/jcnaour">Jean-Christophe Naour</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-				
-<iframe width="1009" height="568" src="https://www.youtube.com/embed/HzeYb00eQRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```markdown
 Syntax highlighted code block
