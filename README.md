@@ -11,24 +11,29 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 3. [Microphone Array](#micarray)
 4. [Axis Sensors](#axissensors)
 
+<a name="vjkit"></a>
+### Azure Kinect VJ Kit 
 <iframe src="https://drive.google.com/file/d/1wJTxYD0P_6q-k_afNFIqYYmUpe_cQZpT/preview" width="640" height="480"></iframe>
+</br>
+<iframe src="https://drive.google.com/file/d/1PKLcK00VZMDmcA4wMplFmgWSVD8wcOVq/preview" width="640" height="480"></iframe>
+</br>
+<iframe src="https://drive.google.com/file/d/1mBdy5fQGOHDl2aVKRk6SB1QycwHrVyPd/preview" width="640" height="480"></iframe>
+</br>
 
-<a name="vjkit">###VJkit</a>
+### Microsoft Azure Cognitive Services
+<a name="speech"></a>
+#### Speech to Text 
+<a name="vision"></a>
+#### Computer Vision 
+<a name="micarray"></a>
+### Azure Kinect Microphone Array
 
-<p>some stuff blah yada yda</p>
+<a name="axissensors"></a>
+### Azure Kinect Axis Sensors
 
-<a name="speech">###Speech</a>
+```c++ 
 
-<p>some stuff blah yada yda</p>
-
-<a name="vision">###Vision</a>
-
-<p>some stuff blah yada yda</p>
-
-<a name="vjkit">###VJkit</a>
-
-<p>some stuff blah yada yda</p>
-
+```
 
 ```markdown
 Syntax highlighted code block
