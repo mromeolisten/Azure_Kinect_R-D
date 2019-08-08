@@ -90,9 +90,9 @@ See below:
 
 ##### Step 2:
 
-Next we wanted to have the ability to stream the data into another heavily used creative coding software package ![Touch Designer](https://www.derivative.ca/). Touch Designer is a collection of nodes that allows developers to see step by step how they are processing data. This makes it a great tool for exactly this purpose as we want to take raw depth data directly from the Azure Kinect --> stream it into Touch Designer --> apply post VFX to the depth point cloud.  
+Next we wanted to have the ability to stream the data into another heavily used creative coding software package [Touch Designer](https://www.derivative.ca/). Touch Designer is a collection of nodes that allows developers to see step by step how they are processing data. This makes it a great tool for exactly this purpose as we want to take raw depth data directly from the Azure Kinect --> stream it into Touch Designer --> apply post VFX to the depth point cloud.  
 
-To transfer the 3D data into Touch Designer we used a software called ![Spout](http://spout.zeal.co/) which streams a data into Touch Designer as a Texture. 
+To transfer the 3D data into Touch Designer we used a software called [Spout](http://spout.zeal.co/) which streams a data into Touch Designer as a Texture. 
 
 In this instance we grabbed the data and processed it to look almost like, what you would imagine, a 3D futuristic hologram. The combiniation of Raw depth data with our C++ code and the processing visual effects we apply using GLSL code in Touch Designer gives us the look we were going after. 
 
@@ -110,9 +110,10 @@ See below:
 
 Third Party Technology: 
 
-![Depthkit](https://www.depthkit.tv/) is a software licensed package that allows for combining the RGB data, Depth data, and wrapping it up in a more universal 3d animation asset that can be used in game engines and creative coding toolkits. Currently, it only has the ability to use a single Azure Kinect but in the near future it will be able to captilize on the Azure Kinect 'syncing' feature where a developer can connect several devices to get a near, if not full, 360 degree volumetric capture of a person / object / room. 
+[Depthkit](https://www.depthkit.tv/) is a software licensed package that allows for combining the RGB data, Depth data, and wrapping it up in a more universal 3d animation asset that can be used in game engines and creative coding toolkits. Currently, it only has the ability to use a single Azure Kinect but in the near future it will be able to captilize on the Azure Kinect 'syncing' feature where a developer can connect several devices to get a near, if not full, 360 degree volumetric capture of a person / object / room. 
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/344690092" width="640" height="480"></iframe>
+
 
 ### Microsoft Azure Cognitive Services
 
