@@ -2,27 +2,16 @@
 
 Our company [Listen](www.wearelisten.com) is sharing experiments using the latest Azure Kinect DK.
 
-1. Audio Reactive VJ kit:
-2. Azure Cognitive Services: 
-3. Microphone Array
-4. Axis Sensors
+## Table of Contents
 
-<div class="embed-container">
-  <iframe
-      src="https://player.vimeo.com/video/{{ include.id }}"
-      width="500"
-      height="281"
-      frameborder="0"
-      webkitallowfullscreen
-      mozallowfullscreen
-      allowfullscreen>
-  </iframe>
-</div>
+1. [Audio Reactive VJ kit:](#vjkit)
+2. Microsoft Azure Cognitive Services: 
+	* [Speech-to-Text](#embed-youtube)
+	* [Computer Vision](#embed-youtube)
+3. [Microphone Array](#micarray)
+4. [Axis Sensors](#axissensors)
 
-{% include vimeoPlayer.html id=page.vimeoId %}
----
-vimeoId: putYourIDHere
----
+<iframe src="https://drive.google.com/file/d/1wJTxYD0P_6q-k_afNFIqYYmUpe_cQZpT/preview" width="640" height="480"></iframe>
 
 
 ```markdown
