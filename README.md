@@ -6,12 +6,28 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 
 1. [Audio Reactive VJ kit:](#vjkit)
 2. Microsoft Azure Cognitive Services: 
-	* [Speech-to-Text](#embed-youtube)
-	* [Computer Vision](#embed-youtube)
+	* [Speech-to-Text](#speech)
+	* [Computer Vision](#vision)
 3. [Microphone Array](#micarray)
 4. [Axis Sensors](#axissensors)
 
 <iframe src="https://drive.google.com/file/d/1wJTxYD0P_6q-k_afNFIqYYmUpe_cQZpT/preview" width="640" height="480"></iframe>
+
+<a name="vjkit">###VJkit</a>
+
+<p>some stuff blah yada yda</p>
+
+<a name="speech">###Speech</a>
+
+<p>some stuff blah yada yda</p>
+
+<a name="vision">###Vision</a>
+
+<p>some stuff blah yada yda</p>
+
+<a name="vjkit">###VJkit</a>
+
+<p>some stuff blah yada yda</p>
 
 
 ```markdown
