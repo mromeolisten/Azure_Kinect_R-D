@@ -1,6 +1,6 @@
 ## Listen - Azure Kinect Exploration
 
-Our company [Listen](www.wearelisten.com) is sharing experiments using the latest Azure Kinect DK.
+Our company [Listen](www.wearelisten.com) is sharing experiments using the latest Azure Kinect DK. The [Microsoft official site](https://www.microsoft.com/en-us/p/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot%3aoverviewtab) describes the features of the device some included in the table of contents. The idea for this R&D phase it to build out several demos to assist with future creative ideation as well as having a better understanding of the possiblities of the Azure Kinect. 
 
 ## Table of Contents
 
@@ -13,18 +13,27 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 
 <a name="vjkit"></a>
 ### Azure Kinect VJ Kit 
+
 <iframe src="https://drive.google.com/file/d/1wJTxYD0P_6q-k_afNFIqYYmUpe_cQZpT/preview" width="640" height="480"></iframe>
-</br>
+
 <iframe src="https://drive.google.com/file/d/1PKLcK00VZMDmcA4wMplFmgWSVD8wcOVq/preview" width="640" height="480"></iframe>
-</br>
+
 <iframe src="https://drive.google.com/file/d/1mBdy5fQGOHDl2aVKRk6SB1QycwHrVyPd/preview" width="640" height="480"></iframe>
-</br>
+
 
 ### Microsoft Azure Cognitive Services
+
+Overall we found that we can integrate 
+
+Alternatives: 
+[Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld and can be used any where offline to 
+YOLO (You Only Look Once) <iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> is a real-time software package that is open-source and can run on a live video stream. 
 <a name="speech"></a>
 #### Speech to Text 
 <a name="vision"></a>
 #### Computer Vision 
+
+
 <a name="micarray"></a>
 ### Azure Kinect Microphone Array
 
