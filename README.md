@@ -2,7 +2,7 @@
 
 Our company [Listen](www.wearelisten.com) is sharing experiments using the latest Azure Kinect DK. The [Microsoft official site](https://www.microsoft.com/en-us/p/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot%3aoverviewtab) describes the features of the device some included in the table of contents. The idea for this R&D phase it to build out several demos to assist with future creative ideation as well as having a better understanding of the possiblities of the Azure Kinect. 
 
-## Table of Contents
+## Table of Contents  
 
 1. [Audio Reactive VJ kit:](#vjkit)
 2. Microsoft Azure Cognitive Services: 
@@ -26,8 +26,12 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 Overall we found that we can integrate 
 
 Alternatives: 
-[Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld and can be used any where offline to 
-YOLO (You Only Look Once) <iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> is a real-time software package that is open-source and can run on a live video stream. 
+[Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld that can be run offline. 
+
+YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. <br/>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
+
 <a name="speech"></a>
 #### Speech to Text 
 <a name="vision"></a>
