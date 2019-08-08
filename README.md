@@ -27,11 +27,11 @@ This demo was made to test the feasibility of capturing 3D depth data with the A
 
 ##### Step 1:  
 
-OpenFrameworks: 
+Retrieving Raw 3D Depth: 
 
-openframeworks is an open-source creative coding toolkit which allows developers the low level functionality of being able to produce code in C++ but with the ease of users higher level pre-written code and plugins to get multimedia applications running quickly. Good for prototyping. 
+To do this we used openframeworks which is an open-source creative coding toolkit that allows developers the low level functionality of C++ but with the ease of using higher level pre-written code and plugins to get multimedia applications running quickly.
 
-The open-source community release a plugin that utlizes the Azure Kinect SDK, specifically to stream a point cloud. The below video documentation shows real-time generated 3D streaming data directly from the device. This gives us the ability to place physical environment, objects, people in 3D space i.e. translate, rotate, scale, manipulate 3D data. 
+The open-source community released a plugin that utlizes the Azure Kinect SDK, specifically to retrieve and stream a point cloud. The below video documentation shows real-time generated 3D streaming data directly from the device. This gives us the ability to place physical environment, objects, people in 3D space i.e. translate, rotate, scale, manipulate 3D data. 
 
 ```c++
 
@@ -82,6 +82,7 @@ void ofApp::draw()
 
 
 ```
+This small amount of code produces the following result. 
 
 See below:
 
