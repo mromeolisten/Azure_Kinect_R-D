@@ -134,6 +134,9 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 Retrieving RGB data: 
 
 The Azure Kinect has a built in 4k resolution RGB camera. Using the 
+<iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1OdMt4V5yeW95UlQxs4vYJxOi0qhYjALf/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1S3X7bG79Jf6qZHQWpLpogI_c7RJXcKf4/preview" width="640" height="480"></iframe>
 
 ##### Step 2:
 
@@ -145,8 +148,10 @@ Once the object is detected in the cameras view different sound files are trigge
 
 Apple = Kick
 Banana = Snare / Hi-hats
-Mug = Bass 
-Orange = Piano 
+Mug = Piano 
+Orange = Synth
+
+<iframe src="https://drive.google.com/file/d/12A6I5xCZBy40ci3nuBRVBY4WTL55Bi43/preview" width="640" height="480"></iframe>
 
 
 
@@ -154,7 +159,7 @@ Third Party Technology:
 
 [Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld that can be run offline. 
 
-YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. <br/>
+YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. 
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
 
