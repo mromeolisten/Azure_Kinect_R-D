@@ -119,8 +119,8 @@ Third Party Technology:
 
 The Azure Kinect enables the usage of the Azure Cognitive Vision services via the RGB camera and the Azure Speech Services via the microphone array. Below are descriptions of 
 
-a) A Speech-to-text demo that allows the user to speak naturally to produce sound playback. 
-b) A Computer Vision demo that allows the user to place objects on a table to produce sound playback of different instrumentaion.
+* A Speech-to-text demo that allows the user to speak naturally to produce sound playback. 
+* A Computer Vision demo that allows the user to place objects on a table to produce sound playback of different instrumentaion.
 
 <a name="speech"></a>
 #### Speech to Text 
