@@ -10,7 +10,7 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 ## Table of Contents  
 
 1. [Audio Reactive VJ kit](#vjkit)
-2. Microsoft Azure Cognitive Services: 
+2. [Microsoft Azure Cognitive Services:](#services)
 	* [Speech-to-Text](#speech)
 	* [Computer Vision](#vision)
 3. [Microphone Array](#micarray)
@@ -110,14 +110,45 @@ See below:
 
 Third Party Technology: 
 
-[Depthkit](https://www.depthkit.tv/) is a software licensed package that allows for combining the RGB data, Depth data, and wrapping it up in a more universal 3d animation asset that can be used in game engines and creative coding toolkits. Currently, it only has the ability to use a single Azure Kinect but in the near future it will be able to captilize on the Azure Kinect 'syncing' feature where a developer can connect several devices to get a near, if not full, 360 degree volumetric capture of a person / object / room. 
+[Depthkit](https://www.depthkit.tv/) is a software licensed package that allows for combining the RGB data, Depth data, and wrapping it up in a more universal 3d animation asset that can be used in game engines and creative coding toolkits. Currently, it only has the ability to use a single Azure Kinect but in the near future it will be able to captilize on the Azure Kinect "external device synchronization control with configurable delay offset between devices" feature where a developer can connect several devices to get a near, if not full, 360 degree volumetric capture of a person / object / room. 
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/344690092" width="640" height="480"></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/344690092" width="640" height="480"></iframe>  
 
-
+<a name="services"></a>
 ### Microsoft Azure Cognitive Services
 
-Overall we found that we can integrate 
+The Azure Kinect enables the usage of the Azure Cognitive Vision services via the RGB camera and the Azure Speech Services via the microphone array. Below are descriptions of 
+
+a) A Speech-to-text demo that allows the user to speak naturally to produce sound playback. 
+b) A Computer Vision demo that allows the user to place objects on a table to produce sound playback of different instrumentaion.
+
+<a name="speech"></a>
+#### Speech to Text 
+
+<a name="vision"></a>
+#### Computer Vision 
+
+##### Process
+
+##### Step 1:  
+Retrieving RGB data: 
+
+The Azure Kinect has a built in 4k resolution RGB camera. Using the 
+
+##### Step 2:
+
+##### Step 3:
+
+Interactive Sound Playback: 
+
+Once the object is detected in the cameras view different sound files are triggered to playback the sequence. 
+
+Apple = Kick
+Banana = Snare / Hi-hats
+Mug = Bass 
+Orange = Piano 
+
+
 
 Third Party Technology: 
 
@@ -126,12 +157,6 @@ Third Party Technology:
 YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. <br/>
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
-
-<a name="speech"></a>
-#### Speech to Text 
-
-<a name="vision"></a>
-#### Computer Vision 
 
 <a name="micarray"></a>
 ### Azure Kinect Microphone Array
