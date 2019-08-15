@@ -134,13 +134,14 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 Retrieving RGB data: 
 
 The Azure Kinect has a built in 4k resolution RGB camera. Using the 
-<iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
 <iframe src="https://drive.google.com/file/d/1OdMt4V5yeW95UlQxs4vYJxOi0qhYjALf/preview" width="640" height="480"></iframe>
-<iframe src="https://drive.google.com/file/d/1S3X7bG79Jf6qZHQWpLpogI_c7RJXcKf4/preview" width="640" height="480"></iframe>
 
 ##### Step 2:
+<iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
 
 ##### Step 3:
+<iframe src="https://drive.google.com/file/d/1S3X7bG79Jf6qZHQWpLpogI_c7RJXcKf4/preview" width="640" height="480"></iframe>
+
 
 Interactive Sound Playback: 
 
