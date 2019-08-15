@@ -154,12 +154,9 @@ Our program works in the following process:
 2. That image data is then sent to the Azure Cloud for processing through the AI algorithm.
 3. The Azure cloud then returns a JSON formatted message which includes the features of the image i.e. objects, colors, etc.
 4. Our program then parses that JSON file for relevant objects in our case Banana, Apple, Orange, Mug. 
-
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
-
+<br>
 <iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
-
+<br>
 ##### Step 3:
 <br>
 Interactive Sound Playback: 
@@ -204,6 +201,8 @@ Third Party Technology (alternatives):
 [Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld that can be run offline. 
 
 YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. 
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
 
 
 <a name="micarray"></a>
