@@ -98,7 +98,7 @@ See below:
 
 Next we wanted to have the ability to stream the data into another heavily used creative coding software package [Touch Designer](https://www.derivative.ca/). Touch Designer is a collection of nodes that allows developers to see step by step how they are processing data. This makes it a great tool for exactly this purpose as we want to take raw depth data directly from the Azure Kinect --> stream it into Touch Designer --> apply post VFX to the depth point cloud.  
 
-To transfer the 3D data into Touch Designer we used a software called [Spout](http://spout.zeal.co/) which streams a data into Touch Designer as a Texture. 
+To transfer the 3D data into Touch Designer we used a software called [Spout](http://spout.zeal.co/) which streams data into Touch Designer as a Texture. 
 
 In this instance we grabbed the data and processed it to look almost like, what you would imagine, a 3D futuristic hologram. The combiniation of Raw depth data with our C++ code and the processing visual effects we apply using GLSL code in Touch Designer gives us the look we were going after. 
 
@@ -155,15 +155,45 @@ Our program works in the following process:
 3. The Azure cloud then returns a JSON formatted message which includes the features of the image i.e. objects, colors, etc.
 4. Our program then parses that JSON file for relevant objects in our case Banana, Apple, Orange, Mug. 
 
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
+
+<iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
+
+##### Step 3:
+<br>
+Interactive Sound Playback: 
+
+Lastly we connected all of our Azure Kinect object recognition code to a custom built interactive sound playback application using [Max/MSP](https://cycling74.com/). Our application creates a sequence which stays within the designated BPM and length of the audio waveforms. When the Azure Kinect detects a specified object the correlating instrumentation begins to play. the app allows the user to essentially create different musical compositions with the use of common objects and AI detection. 
+
+* Apple = Kick
+* Banana = Snare / Hi-hats
+* Mug = Piano 
+* Orange = Synth
+
+See below:
+<br>
+<iframe src="https://drive.google.com/file/d/1S3X7bG79Jf6qZHQWpLpogI_c7RJXcKf4/preview" width="640" height="480"></iframe>
+
+<br> 
+
+See below for full demo: 
+<br>
+
+<iframe src="https://drive.google.com/file/d/12A6I5xCZBy40ci3nuBRVBY4WTL55Bi43/preview" width="640" height="480"></iframe>
+
+<br>
+
 Technical Findings:  
 
 * Lighting: 
 	* Low lighting can greatly effect results. 
 	* Creation of shadows can greatly effect results. 
-* Objects: 
+* Physical Objects: 
 	* Position of objects matters greatly. 
 	* There isn't documentation in regards to List of types of objects for detection. 
 	* Limited objects with minimal surrounding visual information gets better results than many objects shows in one capture.
+	* Many objects we tested for detection were not recognized, such as scissors, measuring tape, knife, utensils. 
 * API Functionality: 
 	* The JSON file of data points returned from the Microsoft Azure service does NOT contain position information regarding objects, it also contains a great deal of possible objects it could be detecting so a fair amount of parsing is required.  
 	* The Azure Kinect device is simply being used as a camera to retrieve these resullts, it requires connection to a computer and the computer must have an internet connection. 
@@ -174,28 +204,6 @@ Third Party Technology (alternatives):
 [Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld that can be run offline. 
 
 YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. 
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
-
-<iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
-
-##### Step 3:
-<iframe src="https://drive.google.com/file/d/1S3X7bG79Jf6qZHQWpLpogI_c7RJXcKf4/preview" width="640" height="480"></iframe>
-
-
-Interactive Sound Playback: 
-
-Once the object is detected in the cameras view different sound files are triggered to playback the sequence. 
-
-Apple = Kick
-Banana = Snare / Hi-hats
-Mug = Piano 
-Orange = Synth
-
-<iframe src="https://drive.google.com/file/d/12A6I5xCZBy40ci3nuBRVBY4WTL55Bi43/preview" width="640" height="480"></iframe>
-
-
-
 
 
 <a name="micarray"></a>
