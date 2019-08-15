@@ -16,6 +16,12 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 3. [Microphone Array](#micarray)
 4. [Axis Sensors](#axissensors)
 
+### Specifications: 
+* Depth camera: 1MP Time-of-flight
+* RGB camera: 12MP CMOS sensor rolling shutter 
+* IMU: 3D digital accelerometer and a 3D digital gyroscope 
+* Microphone: 7-microphone circular array
+
 
 <a name="vjkit"></a>  
 
@@ -133,10 +139,44 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 ##### Step 1:  
 Retrieving RGB data: 
 
-The Azure Kinect has a built in 4k resolution RGB camera. Using the 
+The Azure Kinect has a built in 12MP, 4k resolution RGB camera. Using [Touch Designer](https://www.derivative.ca/) we very quickly can retrieve any video input device. The Azure Kinect is detected as a connected device and we are able to read the RGB pixels directly from the camera. See Below:    
+
 <iframe src="https://drive.google.com/file/d/1OdMt4V5yeW95UlQxs4vYJxOi0qhYjALf/preview" width="640" height="480"></iframe>
 
 ##### Step 2:
+
+Azure Computer Vision AI Object Reconigition: 
+
+Microsoft Azure cloud services offers a pre-trained AI object detection system. It has been trained to detect common items (as in our demo). Touch Designer allows developers to write natively in python and allows access to external libraries as well. In the case of our demo we use the 'import requests' python library to be able to make requests directly to the Azure Computer Vision API. 
+
+Our program works in the following process: 
+1. Automatically captures an image snapshot every few frames from code.
+2. That image data is then sent to the Azure Cloud for processing through the AI algorithm.
+3. The Azure cloud then returns a JSON formatted message which includes the features of the image i.e. objects, colors, etc.
+4. Our program then parses that JSON file for relevant objects in our case Banana, Apple, Orange, Mug. 
+
+Technical Findings:  
+
+* Lighting: 
+	* Low lighting can greatly effect results. 
+	* Creation of shadows can greatly effect results. 
+* Objects: 
+	* Position of objects matters greatly. 
+	* There isn't documentation in regards to List of types of objects for detection. 
+	* Limited objects with minimal surrounding visual information gets better results than many objects shows in one capture.
+* API Functionality: 
+	* The JSON file of data points returned from the Microsoft Azure service does NOT contain position information regarding objects, it also contains a great deal of possible objects it could be detecting so a fair amount of parsing is required.  
+	* The Azure Kinect device is simply being used as a camera to retrieve these resullts, it requires connection to a computer and the computer must have an internet connection. 
+	* The API requires image capture which makes the detection ideal for single image captures not interactive projects that require real-time detection of objects. See below references. 
+
+Third Party Technology (alternatives): 
+
+[Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld that can be run offline. 
+
+YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. 
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
+
 <iframe src="https://drive.google.com/file/d/1ZOdQOUl1PirJHDypdQACLbdgh0BZ6rHg/preview" width="640" height="480"></iframe>
 
 ##### Step 3:
@@ -156,13 +196,7 @@ Orange = Synth
 
 
 
-Third Party Technology: 
 
-[Coral](https://coral.withgoogle.com/): Allows for localized (non-cloud based), free usage of Tensorflow based real-time object detection libraries. The device is handheld that can be run offline. 
-
-YOLO (You Only Look Once): is a real-time software package that is open-source and can run on a live video stream. 
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/MPU2HistivI"></iframe> 
 
 <a name="micarray"></a>
 ### Azure Kinect Microphone Array
