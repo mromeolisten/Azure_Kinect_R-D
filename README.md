@@ -9,7 +9,7 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 
 ## Table of Contents  
 
-1. [Audio Reactive VJ kit](#vjkit)
+1. [Depth Camera](#vjkit)
 2. [Microsoft Azure Cognitive Services:](#services)
 	* [Speech-to-Text](#speech)
 	* [Computer Vision](#vision)
@@ -25,7 +25,7 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 
 <a name="vjkit"></a>  
 
-### Azure Kinect VJ Kit
+## Depth Camera
 
 This demo was made to test the feasibility of capturing 3D depth data with the Azure Kinect. We found that this device produces a much higher resolution 3D point cloud. A point cloud is a set of data points in space. Point clouds are generally produced by 3D scanners, which measure a large number of points on the external surfaces of objects around them.
 
