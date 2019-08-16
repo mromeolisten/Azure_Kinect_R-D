@@ -121,7 +121,7 @@ Third Party Technology:
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/344690092" width="640" height="480"></iframe>  
 
 <a name="services"></a>
-### Microsoft Azure Cognitive Services
+## Microsoft Azure Cognitive Services
 
 The Azure Kinect enables the usage of the Azure Cognitive Vision services via the RGB camera and the Azure Speech Services via the microphone array. Below are descriptions of 
 
@@ -129,10 +129,10 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 * A Computer Vision demo that allows the user to place objects on a table to produce sound playback of different instrumentaion.
 
 <a name="speech"></a>
-#### Speech to Text 
+### Speech to Text 
 
 <a name="vision"></a>
-#### Computer Vision 
+### Computer Vision 
 
 ##### Process
 
@@ -181,7 +181,7 @@ See below for full demo:
 
 <br>
 
-Technical Findings:  
+####Technical Findings:  
 
 * Lighting: 
 	* Low lighting can greatly effect results. 
@@ -206,10 +206,10 @@ YOLO (You Only Look Once): is a real-time software package that is open-source a
 
 
 <a name="micarray"></a>
-### Azure Kinect Microphone Array
+## Microphone Array
 
 <a name="axissensors"></a>
-### Azure Kinect Axis Sensors
+## Axis Sensors
 
 ```c++ 
 
