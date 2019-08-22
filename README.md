@@ -135,7 +135,7 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 
 <iframe src="https://drive.google.com/file/d/1Uy4f6uEDcjNiGlHkD1N8qRQhIEOAIpLD/preview" width="640" height="480"></iframe>
 
-
+<iframe src="https://drive.google.com/file/d/12wkLsH3i4R0Bvs4tKPDE_bCSvU_SLh9t/preview" width="640" height="480"></iframe>
 
 
 <a name="vision"></a>
