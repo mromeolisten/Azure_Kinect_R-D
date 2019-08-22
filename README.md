@@ -131,11 +131,28 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 <a name="speech"></a>
 ### Speech to Text 
 
-<iframe src="https://drive.google.com/file/d/1mUG3TDA2euigjvCbbItWZ1k8wsi2tdhU/preview" width="640" height="480"></iframe>
+##### Process
+
+##### Step 1:  
+
+Retrieving Audio stream:
+
+The Azure Kinect has a microphone arrary on top of the device. There are total seven microphones in the shape of a ring. 
+
+<iframe src="https://docs.microsoft.com/en-us/azure/kinect-dk/media/resources/hardware-specs-media/device-wire.png" width="640" height="480">
+	
+By accessing the audio device from the Azure Kinect we are able to receive the audio buffer source in our code. Microsoft has highlighted the use of the Azure **Speech-to-Text** API with their device. Within [Touch Designer](https://www.derivative.ca/) we are able to write directly with Python. Below is a screenshot of the Speech-to-Text API being imported into a text node in Touch Designer and written in Python. As the user speaks we are able to retrieve a steady stream of text in real-time. 
 
 <iframe src="https://drive.google.com/file/d/1Uy4f6uEDcjNiGlHkD1N8qRQhIEOAIpLD/preview" width="640" height="480"></iframe>
 
+##### Step 2:  
+
+Now that we have the text from the user speaking into the microphone we can parse each individual. 
+
 <iframe src="https://drive.google.com/file/d/12wkLsH3i4R0Bvs4tKPDE_bCSvU_SLh9t/preview" width="640" height="480"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1mUG3TDA2euigjvCbbItWZ1k8wsi2tdhU/preview" width="640" height="480"></iframe>
+
 
 
 <a name="vision"></a>
@@ -152,7 +169,7 @@ The Azure Kinect has a built in 12MP, 4k resolution RGB camera. Using [Touch Des
 
 ##### Step 2:
 
-Azure Computer Vision AI Object Reconigition: 
+Azure Computer Vision AI Object Recognition: 
 
 Microsoft Azure cloud services offers a pre-trained AI object detection system. It has been trained to detect common items (as in our demo). Touch Designer allows developers to write natively in python and allows access to external libraries as well. In the case of our demo we use the 'import requests' python library to be able to make requests directly to the Azure Computer Vision API. 
 
