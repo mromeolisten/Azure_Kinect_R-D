@@ -131,6 +131,13 @@ The Azure Kinect enables the usage of the Azure Cognitive Vision services via th
 <a name="speech"></a>
 ### Speech to Text 
 
+<iframe src="https://drive.google.com/file/d/1mUG3TDA2euigjvCbbItWZ1k8wsi2tdhU/preview" width="640" height="480"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1Uy4f6uEDcjNiGlHkD1N8qRQhIEOAIpLD/preview" width="640" height="480"></iframe>
+
+
+
+
 <a name="vision"></a>
 ### Computer Vision 
 
