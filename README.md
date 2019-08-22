@@ -139,7 +139,7 @@ Retrieving Audio stream:
 
 The Azure Kinect has a microphone arrary on top of the device. There are total seven microphones in the shape of a ring. 
 
-<iframe src="https://drive.google.com/file/d/1RpciZ9HUaFc9l17bbD3ZUkyrQbXclfdK/preview" width="640" height="480">
+<iframe src="https://drive.google.com/file/d/1RpciZ9HUaFc9l17bbD3ZUkyrQbXclfdK/preview" width="640" height="480"></iframe>
 	
 By accessing the audio device from the Azure Kinect we are able to receive the audio buffer source in our code. Microsoft has highlighted the use of the Azure **Speech-to-Text** API with their device. Within [Touch Designer](https://www.derivative.ca/) we are able to write directly with Python. Below is a screenshot of the Speech-to-Text API being imported into a text node in Touch Designer and written in Python. As the user speaks we are able to retrieve a steady stream of text in real-time. 
 
