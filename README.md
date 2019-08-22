@@ -147,7 +147,12 @@ By accessing the audio device from the Azure Kinect we are able to receive the a
 
 ##### Step 2:  
 
-Now that we have the text from the user speaking into the microphone we can parse each individual. 
+Now that we have the text from the user speaking into the microphone we can parse individual words and phrases. When our software detects specified words and phrases the user can toggle instrumentation on and off: 
+
+* "Set Piano On / Off"
+* "Set Bass On / Off"
+* "Set Drums On / Off"
+
 
 <iframe src="https://drive.google.com/file/d/12wkLsH3i4R0Bvs4tKPDE_bCSvU_SLh9t/preview" width="640" height="480"></iframe>
 
