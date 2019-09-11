@@ -14,7 +14,7 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 	* [Speech-to-Text](#speech)
 	* [Computer Vision](#vision)
 3. [Microphone Array](#micarray)
-4. [Axis Sensors](#axissensors)
+4. [Skeleton](#bodytracking)
 
 ### Specifications: 
 * Depth camera: 1MP Time-of-flight
@@ -237,8 +237,19 @@ YOLO (You Only Look Once): is a real-time software package that is open-source a
 <a name="micarray"></a>
 ## Microphone Array
 
-<a name="axissensors"></a>
-## Axis Sensors
+
+##### Process
+
+##### Step 1:  
+Retrieving audio buffer: 
+
+####Technical Findings:  
+
+* Low lighting can greatly effect results. 
+* Creation of shadows can greatly effect results. 
+
+<a name="bodytracking"></a>
+## Skeleton Tracking
 
 ```c++ 
 
