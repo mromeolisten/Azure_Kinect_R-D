@@ -250,7 +250,7 @@ The below reference demo video shows that we were able to simply access all seve
 
 <iframe src="https://drive.google.com/file/d/1t2yTtO-4ethWS-YTCeDeqk9u9kObB-QR/preview" width="640" height="480"></iframe>
 
-####Technical Findings:  
+#### Technical Findings:  
 
 * Currently no SDK implementation for accessing the audio buffers in a way that accounts for any kind of directional, spatial, ambisonic audio input from the microphones.
 * Audio can be open with 'port_audio' driver for windows, as seven mono microphone live streams. 
