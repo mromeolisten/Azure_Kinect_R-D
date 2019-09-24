@@ -14,7 +14,7 @@ Our company [Listen](www.wearelisten.com) is sharing experiments using the lates
 	* [Speech-to-Text](#speech)
 	* [Computer Vision](#vision)
 3. [Microphone Array](#micarray)
-4. [Skeleton](#bodytracking)
+
 
 ### Specifications: 
 * Depth camera: 1MP Time-of-flight
@@ -240,38 +240,23 @@ YOLO (You Only Look Once): is a real-time software package that is open-source a
 
 ##### Process
 
-##### Step 1:  
-Retrieving audio buffer: 
+The idea for this demo was to see if we could figure out the direction of where sound was coming from within a physical space. We also wanted to see what capabilites the microphone array would have with a Microsoft SDK. Ideally, we would like to access the microphone input as some kind of ambisonic audio input that we could understand directionally audio within a physical space. 
+
+The below reference demo video shows that we were able to simply access all seven microphones input audio streams but not much more than that. Using [!Max](https://cycling74.com/) we used an adc~ object to access the streams by doing the following: 
+</br>
+1. ad_portaudio (windows)
+2. select 'Microphone Array'
+3. Sample Rate 48000
+
+<iframe src="https://drive.google.com/file/d/1t2yTtO-4ethWS-YTCeDeqk9u9kObB-QR/preview" width="640" height="480"></iframe>
 
 ####Technical Findings:  
 
-* Low lighting can greatly effect results. 
-* Creation of shadows can greatly effect results. 
+* Currently no SDK implementation for accessing the audio buffers in a way that accounts for any kind of directional, spatial, ambisonic audio input from the microphones.
+* Audio can be open with 'port_audio' driver for windows, as seven mono microphone live streams. 
+
 
 <a name="bodytracking"></a>
-## Skeleton Tracking
-
-```c++ 
-
-```
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-![Image](https://physicsworld.com/wp-content/uploads/2018/09/PWSep18Ball-noise_HERO-1024x576.jpg)
-```
 
 
 		
