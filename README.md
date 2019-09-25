@@ -242,8 +242,9 @@ YOLO (You Only Look Once): is a real-time software package that is open-source a
 
 The idea for this demo was to see if we could figure out the direction of where sound was coming from within a physical space. We also wanted to see what capabilites the microphone array would have with a Microsoft SDK. Ideally, we would like to access the microphone input as some kind of ambisonic audio input that we could understand directionally audio within a physical space. 
 
-The below reference demo video shows that we were able to simply access all seven microphones input audio streams but not much more than that. Using [!Max](https://cycling74.com/) we used an adc~ object to access the streams by doing the following: 
-</br>
+The below reference demo video shows that we were able to simply access all seven microphones input audio streams but not much more than that. Using [Max](https://cycling74.com/) we used an adc~ object to access the streams by doing the following: 
+
+
 1. ad_portaudio (windows)
 2. select 'Microphone Array'
 3. Sample Rate 48000
